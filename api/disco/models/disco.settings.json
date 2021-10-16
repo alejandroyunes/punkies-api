@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Titulo": {
+    "title": {
       "type": "string"
     },
-    "Descripcion": {
+    "description": {
       "type": "text"
     },
-    "Imagen": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

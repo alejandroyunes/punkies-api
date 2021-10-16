@@ -18,7 +18,3 @@ module.exports = ({ env }) => ({
     },
   },
 });
-// 1- uncomment above code
-// 2- Do not push the code below
-// in order to localhost to work uncomment this code.  to upload delete it and uncomment the code above
-
