@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "discos",
+  "collectionName": "discografias",
   "info": {
-    "name": "Disco",
-    "description": ""
+    "name": "Discografia"
   },
   "options": {
     "increments": true,
@@ -12,12 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -30,8 +23,14 @@
       "required": false,
       "pluginOptions": {}
     },
+    "title": {
+      "type": "text"
+    },
     "year": {
       "type": "biginteger"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

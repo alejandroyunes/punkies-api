@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/discos",
-      "handler": "disco.find",
+      "path": "/discografias",
+      "handler": "discografia.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/discos/count",
-      "handler": "disco.count",
+      "path": "/discografias/count",
+      "handler": "discografia.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/discos/:id",
-      "handler": "disco.findOne",
+      "path": "/discografias/:id",
+      "handler": "discografia.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/discos",
-      "handler": "disco.create",
+      "path": "/discografias",
+      "handler": "discografia.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/discos/:id",
-      "handler": "disco.update",
+      "path": "/discografias/:id",
+      "handler": "discografia.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/discos/:id",
-      "handler": "disco.delete",
+      "path": "/discografias/:id",
+      "handler": "discografia.delete",
       "config": {
         "policies": []
       }
