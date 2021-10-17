@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conciertos",
+  "info": {
+    "name": "Conciertos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "evento": {
+      "type": "string"
+    },
+    "lugar": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "biginteger"
+    }
+  }
+}

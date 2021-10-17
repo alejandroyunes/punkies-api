@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conciertos",
+      "handler": "conciertos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conciertos/count",
+      "handler": "conciertos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conciertos/:id",
+      "handler": "conciertos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/conciertos",
+      "handler": "conciertos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conciertos/:id",
+      "handler": "conciertos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conciertos/:id",
+      "handler": "conciertos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
