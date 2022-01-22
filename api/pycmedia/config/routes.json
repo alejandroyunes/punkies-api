@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pycmedias",
+      "handler": "pycmedia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pycmedias/count",
+      "handler": "pycmedia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pycmedias/:id",
+      "handler": "pycmedia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pycmedias",
+      "handler": "pycmedia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pycmedias/:id",
+      "handler": "pycmedia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pycmedias/:id",
+      "handler": "pycmedia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

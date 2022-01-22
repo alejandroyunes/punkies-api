@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gp-medias",
+      "handler": "gp-media.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gp-medias/count",
+      "handler": "gp-media.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gp-medias/:id",
+      "handler": "gp-media.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gp-medias",
+      "handler": "gp-media.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gp-medias/:id",
+      "handler": "gp-media.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gp-medias/:id",
+      "handler": "gp-media.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

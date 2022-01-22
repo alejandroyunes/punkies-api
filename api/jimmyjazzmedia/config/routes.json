@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jimmyjazzmedias",
+      "handler": "jimmyjazzmedia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jimmyjazzmedias/count",
+      "handler": "jimmyjazzmedia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jimmyjazzmedias/:id",
+      "handler": "jimmyjazzmedia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jimmyjazzmedias",
+      "handler": "jimmyjazzmedia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jimmyjazzmedias/:id",
+      "handler": "jimmyjazzmedia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jimmyjazzmedias/:id",
+      "handler": "jimmyjazzmedia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
