@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "discografias",
   "info": {
-    "name": "Discografia"
+    "name": "Discografia",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -31,6 +32,14 @@
     },
     "description": {
       "type": "text"
+    },
+    "banda": {
+      "type": "enumeration",
+      "enum": [
+        "punkies",
+        "gp",
+        "jimmy"
+      ]
     }
   }
 }
