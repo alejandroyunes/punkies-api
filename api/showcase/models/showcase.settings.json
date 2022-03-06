@@ -26,6 +26,9 @@
     },
     "mobile": {
       "type": "boolean"
+    },
+    "alt": {
+      "type": "string"
     }
   }
 }
