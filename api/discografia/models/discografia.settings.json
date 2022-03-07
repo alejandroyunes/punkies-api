@@ -24,14 +24,11 @@
       "required": false,
       "pluginOptions": {}
     },
-    "title": {
-      "type": "text"
-    },
     "year": {
       "type": "biginteger"
     },
-    "description": {
-      "type": "text"
+    "alt": {
+      "type": "string"
     },
     "banda": {
       "type": "enumeration",
@@ -40,6 +37,9 @@
         "gp",
         "jimmy"
       ]
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
