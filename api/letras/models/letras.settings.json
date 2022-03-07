@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "letras",
+  "info": {
+    "name": "letras",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "album": {
+      "type": "string"
+    },
+    "song": {
+      "type": "string"
+    },
+    "letra": {
+      "type": "text"
+    },
+    "compositor": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "banda": {
+      "type": "enumeration",
+      "enum": [
+        "gp",
+        "punkies",
+        "jimmy"
+      ]
+    }
+  }
+}
