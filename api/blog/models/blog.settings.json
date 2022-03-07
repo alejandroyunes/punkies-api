@@ -41,9 +41,6 @@
     },
     "slug": {
       "type": "string"
-    },
-    "track": {
-      "type": "integer"
     }
   }
 }
