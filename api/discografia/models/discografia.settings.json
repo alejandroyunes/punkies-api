@@ -43,6 +43,9 @@
     },
     "album": {
       "type": "string"
+    },
+    "comparedAlbum": {
+      "type": "string"
     }
   }
 }
