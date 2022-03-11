@@ -40,6 +40,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "album": {
+      "type": "string"
     }
   }
 }
