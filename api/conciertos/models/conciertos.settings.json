@@ -23,6 +23,9 @@
     },
     "price": {
       "type": "string"
+    },
+    "fecha": {
+      "type": "string"
     }
   }
 }
